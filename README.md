@@ -9,13 +9,18 @@ O projeto consiste em utilizar um dispositivo para consumir mídia presente em u
 Utiliza o MiniDLNA configurado no Raspberry Pi e uma aplicação própria para controle da conexão cliente-servidor, 
 permitindo que o dispositivo conectado seja notificado no momento que um novo arquivo for adicionado a pasta do Raspberry Pi.
 
+<br>
+
 Padrão Observer: o Raspberry Pi fica monitorando a pasta de mídias, enquanto o computador aguarda as notificações através de threads.
 
 Utiliza-se os sockets e conexão TCP para criar um canal confiável para entrega de pacotes.
 
 Além disso, utiliza-se o Wireshark para monitoramento dos pacotes.
 
+<br>
+
 Pré-requisitos:
+
 
 Python;
 
@@ -23,6 +28,7 @@ Python + biblioteca watchdog + miniDLNA instalado no Raspberry Pi;
 
 
 Ordem de instalação:
+
 
 1 - Conectar os dispositivos na mesma rede
 
@@ -36,8 +42,10 @@ Ordem de instalação:
 
 6 - Acessando a aba Rede do Explorador de Arquivo do Windows, é possível visualizar a mídia do Raspberry Pi.
 
+<br>
 
 Integrantes:
+
 
 Esther Freixo Chaves
 
@@ -45,7 +53,7 @@ Raphael Mendes Miranda Fernandes
 
 Thiago Lucas Vianna Gomes Lehmkuhl Weber
 
-
+<br>
 
 Fonte:
 
