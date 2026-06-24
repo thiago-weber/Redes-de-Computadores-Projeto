@@ -4,6 +4,9 @@ Projeto para a disciplina de Redes de Computadores - 2026.1
 
 O projeto consiste em utilizar um dispositivo para consumir mídia presente em um Raspberry Pi 3b+, através da conexão na rede.
 
+<br>
+<br>
+
 Utiliza o MiniDLNA configurado no Raspberry Pi e uma aplicação própria para controle da conexão cliente-servidor, 
 permitindo que o dispositivo conectado seja notificado no momento que um novo arquivo for adicionado a pasta do Raspberry Pi.
 
