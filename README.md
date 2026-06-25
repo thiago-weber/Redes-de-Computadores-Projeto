@@ -19,12 +19,16 @@ Além disso, utiliza-se o Wireshark para monitoramento dos pacotes.
 
 <br>
 
+Foi utilizado o RealVNC para acessar o Raspberry Pi remotamente.
+
+<br>
+
 Pré-requisitos:
 
 
 Python;
 
-Python + biblioteca watchdog + miniDLNA instalado no Raspberry Pi;
+Raspberry Pi com miniDLNA, Python e bilbioteca watchdog instalados;
 
 
 Ordem de instalação:
