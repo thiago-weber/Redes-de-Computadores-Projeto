@@ -1,4 +1,4 @@
-# Rastreio de pacotes utilizando um miniDLNA
+# Rastreio de pacotes utilizando miniDLNA
 Projeto para a disciplina de Redes de Computadores - 2026.1
 
 
