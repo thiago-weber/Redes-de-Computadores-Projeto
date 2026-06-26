@@ -10,7 +10,7 @@ O objetivo principal é monitorar o consumo de mídia e a integridade da comunic
 
 O projeto utiliza o padrão Observer, no qual o Raspberry Pi atua monitorando alterações no diretório de mídias enquanto o computador aguarda os alertas. 
 Para viabilizar essa comunicação, foi desenvolvida uma aplicação utilizando sockets TCP, garantindo a criação de um canal confiável de cadeia de bytes 
-onde as notificações são entregues de forma confiável.
+onde as notificações são entregues.
 
 
 Também foi utilizado threads no lado servidor. Isso permite que o processo de "escuta" da porta 5005 não seja bloqueante, possibilitando 
