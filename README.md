@@ -10,6 +10,9 @@ Este projeto implementa uma infraestrutura de rede que integra um serviço de st
 
 O objetivo principal é monitorar o consumo de mídia e a integridade da comunicação entre um **Raspberry Pi 3B+** e um **desktop** dentro de uma rede local. O sistema utiliza o **Padrão de Projeto Observer**, no qual o Raspberry Pi atua monitorando alterações no diretório de mídias enquanto o computador aguarda os alertas.
 
+
+Projeto desenvolvido como laboratório prático da disciplina de Redes de Computadores na UFF.
+
 ---
 
 ## Pré-requisitos
@@ -66,15 +69,6 @@ Toda a atividade de rede foi analisada para validar os conceitos de protocolos d
 *   **Controle de Conexão**: Verificação do *handshake* *SYN/ACK*.
 *   **Transferência de Dados**: Monitoramento do fluxo de notificações.
 *   **Fragmentação**: Observação de grandes arquivos de mídia através da descrição *"TCP PDU Reassembled"*.
-
----
-
-## Autoria
-
-Projeto desenvolvido como laboratório prático da disciplina de Redes de Computadores pelos integrantes:
-*   **Esther Freixo Chaves**
-*   **Raphael Mendes Miranda Fernandes**
-*   **Thiago Lucas Vianna Gomes Lehmkuhl Weber**
 
 ---
 
